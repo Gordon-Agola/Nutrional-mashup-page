@@ -1,0 +1,85 @@
+
+const axios = require("axios");
+
+const options = {
+  method: 'GET',
+  url: 'https://fitness-calculator.p.rapidapi.com/burnedcalorie',
+  params: {activityid: 'bi_1', activitymin: '25', weight: '75'},
+  headers: {
+    'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com',
+    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
+
+goals:"goal must be one of maintain,mildlose,weightlose,extremelose,mildgain,weightgain,extremegain"
+activityLevel:1-7
+
+
+ideal weights
+import axios from "axios";
+
+const options = {
+  method: 'GET',
+  url: 'https://fitness-calculator.p.rapidapi.com/idealweight',
+  params: {gender: 'female', height: '230'},
+  headers: {
+    'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com',
+    'X-RapidAPI-Key': '8603829eaamsh1ad93b5c4da833dp15fc1ejsn3a124ca74445'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
+
+height = 130-230
+
+activity
+
+import axios from "axios";
+
+const options = {
+  method: 'GET',
+  url: 'https://fitness-calculator.p.rapidapi.com/activities',
+  params: {intensitylevel: '9'},
+  headers: {
+    'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com',
+    'X-RapidAPI-Key': '8603829eaamsh1ad93b5c4da833dp15fc1ejsn3a124ca74445'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
+
+bmi
+
+import axios from "axios";
+
+const options = {
+  method: 'GET',
+  url: 'https://fitness-calculator.p.rapidapi.com/bmi',
+  params: {age: '25', weight: '65', height: '180'},
+  headers: {
+    'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com',
+    'X-RapidAPI-Key': '8603829eaamsh1ad93b5c4da833dp15fc1ejsn3a124ca74445'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
+
+weight = 40-160

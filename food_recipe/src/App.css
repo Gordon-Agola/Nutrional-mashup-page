@@ -1,0 +1,32 @@
+.app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 650px;
+    padding: 40px 24px;
+}
+
+.search {
+    margin-top: 0px;
+}
+
+.ingredient {
+    padding: 10px 15px;
+    min-width: 200px;
+    max-width: 100vw;
+    font-size: 16px;
+}
+
+.btn--submit {
+    padding: 6px 6px;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-left: 6px;
+    background-color: #02dff0;
+    border: 2px solid #02aff0;
+}
+
+.recipe_container {
+    width: 100%;
+}

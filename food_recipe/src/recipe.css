@@ -1,0 +1,31 @@
+.food_image {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.food_name {
+    text-align: center;
+}
+
+.recipe {
+    width: 100%;
+    margin: 20px 0;
+    background: rgba(21, 76, 82, 0.8)
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+a {
+    font-size: larger;
+    font-weight: 700;
+    color: burlywood;
+    text-transform: uppercase;
+}

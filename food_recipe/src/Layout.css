@@ -1,0 +1,11 @@
+#nav {
+    background-color: DodgerBlue;
+    padding: 6px;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    list-style-type: none;
+}
